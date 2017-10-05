@@ -51,7 +51,7 @@ def validate_login():
             email = email
         else:
             email = ''
-            email_error = 'Email must contain @/. but not begin or end with those characters.'
+            email_error = 'Must be a valid email address.'
     else: 
         email = ''
     
